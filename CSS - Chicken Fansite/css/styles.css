@@ -1,0 +1,38 @@
+/*Tag Selector*/
+h1 {
+  color: red;
+}
+img{
+    /*background-color: red;*/
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 190px;
+}
+/* img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} */
+/*Class Selector*/
+.chicken{
+    background-color: green;
+}
+.hoverblue:hover {
+    box-shadow: 0 0 2px 1px rgba(17, 176, 228, 0.5);
+}
+.broccoli{
+    background-color: red;
+}
+.hoverblack:hover {
+    box-shadow: 0 0 2px 1px rgba(13, 14, 14, 0.5);
+}
+/*Id Selector*/
+#heading{
+    color: blue;
+}
+/*
+Id's are used to identify element where there are a single one of them and class can be used as 
+many times want to with class we can group many elemnts which should have simillar style on the 
+website.
+*/
