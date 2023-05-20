@@ -1,0 +1,23 @@
+body {
+  font-size: 22px;
+}
+p {
+  color: red;
+}
+.gray {
+  color: gray;
+}
+.pink {
+  color: pink;
+}
+#second {
+  font-style: italic;
+}
+h1,
+h2 {
+  color: blue;
+}
+p span {
+  text-transform: uppercase;
+  background-color: paleturquoise;
+}
