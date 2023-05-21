@@ -1,0 +1,87 @@
+body{
+    margin: 0 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1519.2px;
+    height: 5747.450px;
+}
+.stickyslider{
+    width: 1519.2px;
+    height: 56px;;
+    background-color: #2874f0;
+}
+.spaceleft{
+    background-color: #2874f0;
+    height: 56px;
+    width: 135.5px;
+}
+.topfun{
+    position: absolute;
+    right: 136px;
+    top: 0px;
+    background-color:  #2874f0;
+    width: 1248px;
+    height: 56px;
+}
+.spaceright{
+    position: absolute;
+    right: 0px;
+    top: -1px;
+    background-color: blueviolet;
+    height: 56px;
+    width: 135.5px;
+}
+.Tflogo{
+    position: absolute;
+    top: 10.8px;
+    width: 75px;
+    height: 20.11px;
+}
+.logocontain{
+    width: 75px;
+    height: 56px;
+}
+.searchbar{
+    position: absolute;
+    top: 0px;
+    right: 568px;
+    /* background-color: black; */
+    width: 591px;
+    height: 56px;
+}
+.SearchInput{
+    color:pink;
+    width: 564px;
+    height: 36px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.inputspace{
+    width:521.67px;
+    height: 36px;
+}
+.login{
+    text-align: center;
+    color: #2874f0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    right: 401px;
+    top: 12px;
+    width: 121.1px;
+    height: 30px;
+    background-color: white;
+}
+.login a{
+    letter-spacing: .1px;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 5px;
+    left: 40px;
+    font-weight: 600;
+}
