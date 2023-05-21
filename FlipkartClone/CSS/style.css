@@ -88,7 +88,28 @@ a{
 .login a:active,a:link,a:visited,a:hover{
     color: #2874f0;
 }
-.catoagory{
-    width: 1519.2px;
-    height: 112.20px;
+.catagory{
+    height: 112.2px;
+    background: darkorange;
+}
+.catcent{
+    background-color:white;
+    position: absolute;
+    right: 119px;
+    width: 1280px;
+    height: 112px;
+}
+.catcent img{
+    width: 64px;
+    height: 64px;
+}
+.catcent a{
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+.catcent a:hover{
+    font-weight: bold;
+    font-size: 14px;
+    color: #2874f0;
 }
