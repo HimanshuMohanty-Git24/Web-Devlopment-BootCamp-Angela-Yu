@@ -21,7 +21,7 @@ a{
 }
 .topfun{
     position: absolute;
-    right: 136px;
+    right: 109px;
     top: 0px;
     background-color:  #2874f0;
     width: 1248px;
@@ -31,7 +31,7 @@ a{
     position: absolute;
     right: 0px;
     top: -1px;
-    background-color: blueviolet;
+    background-color:#2874f0 ;
     height: 56px;
     width: 135.5px;
 }
@@ -83,5 +83,8 @@ a{
     position: absolute;
     bottom: 5px;
     left: 40px;
-    font-weight: 600;
+    font-weight: bold;
+}
+.login a:active,a:link,a:visited,a:hover{
+    color: #2874f0;
 }
