@@ -113,3 +113,9 @@ a{
     font-size: 14px;
     color: #2874f0;
 }
+.flex{
+    background-color: white;
+    width: 1503.200px;
+    height: 280px;
+    padding: 0px 8px 8px 8px;
+}
