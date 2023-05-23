@@ -143,3 +143,40 @@ a{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     background-color: #2874f0;
 }
+.downflex{
+    background-color:white;
+    width: 1503.200px;
+    height: 266.100px;
+    margin-left: 14px;
+}
+.downflex img{
+    width: 496.050px;
+    height: 266.100px;
+    
+}
+footer{
+    background-color: #172337;
+    width: 1519.200px;
+    height: 346.800px;
+}
+.up{
+    font-size: 12px;
+    font-weight: bold;
+    width: 1519.200px;
+    height: 273px;
+}
+.footer-1{
+    width: 157px;
+    position: absolute;
+    right: 1301px;
+    top: 1326px;
+    line-height: 1.8;
+}
+.footer-2{
+    width: 157px;
+    position: absolute;
+    right: 1096px;
+    top: 1326px;
+    line-height: 1.8;
+}
+
