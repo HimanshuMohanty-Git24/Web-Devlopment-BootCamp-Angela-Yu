@@ -7,8 +7,9 @@ a{
     text-decoration: none;
 }
 .container{
+    
     width: 1519.2px;
-    height: 5747.450px;
+    height: 1619px;
 }
 .stickyslider{
     width: 1519.2px;
@@ -179,4 +180,47 @@ footer{
     top: 1326px;
     line-height: 1.8;
 }
-
+.footer-3{
+    width: 157px;
+    position: absolute;
+    right: 868px;
+    top: 1326px;
+    line-height: 1.8;
+}
+.footer-4{
+    width: 157px;
+    position: absolute;
+    right: 675px;
+    top: 1326px;
+    line-height: 1.8;
+}
+.up a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    -moz-text-decoration-color: white;
+}
+.mailus{
+    width: 170px;
+    position: absolute;
+    right: 421px;
+    top: 1326px;
+    line-height: 1.8;
+}
+.address{
+    width: 380px;
+    position: absolute;
+    right: -47px;
+    top: 1326px;
+    line-height: 1.8;
+}
+.down{
+    width: 1519.200px;
+    height: 73px;
+}
+.madeby{
+    background-color: #fffb00;
+    width: 1519.200px;
+    height: 26px;
+    font-size: 16px;
+    font-weight: bold;
+}
