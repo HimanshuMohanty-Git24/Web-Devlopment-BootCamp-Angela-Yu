@@ -1,6 +1,7 @@
 body{
     margin: 0 0 0 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #f1f3f6;
 }
 a{
     text-decoration: none;
@@ -118,5 +119,27 @@ a{
     background-color: white;
     width: 1503.200px;
     height: 280px;
-    padding: 0px 8px 8px 8px;
+    padding: 0px 8px 0px 8px;
+}
+.TopOffer{
+    background-color: white;
+    width: 1503.200px;
+    height: 372px;
+    margin-left: 8px;
+}
+.main{
+    background-color:white;
+    width: 1255.200px;
+    height: 372px;
+    padding-right: 10px;
+}
+.Info{
+    
+    background-color:white;
+    width: 230px;
+    height: 371px;
+}
+.link{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: #2874f0;
 }
