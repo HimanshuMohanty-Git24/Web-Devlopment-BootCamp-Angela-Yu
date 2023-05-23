@@ -15,6 +15,10 @@ a{
     width: 1519.2px;
     height: 56px;;
     background-color: #2874f0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .spaceleft{
     background-color: #2874f0;
