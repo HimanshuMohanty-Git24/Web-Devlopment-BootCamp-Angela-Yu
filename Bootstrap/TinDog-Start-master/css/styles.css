@@ -11,6 +11,13 @@ h1{
     font-weight: 900;
     color: white;
 }
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
 h3{
     font-family: 'Montserrat';
     font-weight: bold;
@@ -19,7 +26,7 @@ p{
     color: #8f8f8f;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 .navbar{
     padding:0 0 4.5rem;
@@ -48,9 +55,14 @@ p{
     -moz-transform: rotate(25deg);
     -ms-transform: rotate(25deg);
     -o-transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 .feature-box{
     text-align: center;
@@ -62,4 +74,37 @@ p{
 }
 .icon:hover{
     color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color:  #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing h2{
+    color: black;
+}
+#pricing{
+    text-align: center;
+    background-color: #fff;
+    padding:100px;
+}
+.pricing-column{
+    padding:3% 2%;
 }
