@@ -1,0 +1,56 @@
+/**
+ * Welcome to the Stanford Karel IDE.
+ * This is a free space for you to 
+ * write any Karel program you want.
+ **/
+function main(){
+   OneStepOnePattern();
+   
+}
+function oddMove(){
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+}
+function oddTurn(){
+   turnLeft();
+   move();
+   turnLeft();
+}
+function evenMove(){
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+}
+function evenTurn(){
+   turnRight();
+   move();
+   turnRight();
+}
+function OneStepOnePattern(){
+   oddMove();
+   
+   oddTurn();
+   
+   evenMove();
+   
+   evenTurn();
+   
+   oddMove();
+   
+   oddTurn();
+   
+   evenMove();
+   
+   evenTurn();
+   
+   
+   oddMove();
+}
