@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(206, 179, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .main {
+    height: 505px;
+    width: 793px;
+    background-color: #c0dcc0;
+    border-radius: 10px;
+  }
+  
+.top{
+    width: 793px;
+    height: 50px;
+    background-color:#a6caf0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px; /* Add rounded border */
+  outline: 2px solid #000000; /* Add outline */
+}
+.top label{
+    border: 1px solid white;
+}
+.Date_Wrap{
+    height: 50px;
+    width: 195px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+.shift_Wrap{
+    height: 50px;
+    width: 195px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.Unit_Wrap{
+    height: 50px;
+    width: 195px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.middle{
+    padding-top: 5px;
+    width: 793px;
+    height: 198px;
+    display: flex;
+    background-color: #c0c0c0;
+    border-radius: 10px; /* Add rounded border */
+    /* outline: 2px solid #000000; Add outline */
+}
+.reading{
+    width: 396.5px;
+    height: 199px;
+    border-radius: 10px; /* Add rounded border */
+    outline: 2px solid blue; /* Add outline */
+}
+.reason{
+    width: 396.5px;
+    height: 199px;
+    border-radius: 10px; /* Add rounded border */
+    outline: 2px solid purple; /* Add outline */
+}
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+.heading label {
+    display: inline-block; /* Add this line */
+    border: 1px solid white;
+    padding: 5px; /* Add this line for spacing */
+    margin-top: 5px;
+}
+.defect{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.defect label {
+    display: inline-block; /* Add this line */
+    border: 1px solid white;
+    padding: 5px; /* Add this line for spacing */
+    margin-top: 5px;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+}
+.calc label{
+    display: inline-block; /* Add this line */
+    border: 1px solid white;
+    padding: 5px; /* Add this line for spacing */
+    margin-top: 5px;
+}
+.calc input[type="text"]{
+    background-color: #c0c0c0;
+    width: 95px;
+}
+.h2{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h2 label{
+    display: inline-block; /* Add this line */
+    border: 1px solid white;
+    padding: 5px; /* Add this line for spacing */
+    margin-top: 5px;
+}
+.res{
+    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.res input[type="text"]{
+    background-color: #c0c0c0;;
+}
+.res div{
+    padding-top: 3px;
+}
+.Display{
+    margin-top: 5px;
+    height: 244px;
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;
+    border-style: dashed;
+  outline: 2px solid #0d0d0d;
+}
