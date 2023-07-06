@@ -12,7 +12,7 @@
   }
   
   .main {
-    height: 505px;
+    height: 554px;
     width: 793px;
     background-color: #c0dcc0;
     border-radius: 10px;
@@ -140,9 +140,34 @@
 .Display{
     margin-top: 5px;
     height: 244px;
-    display: flex;
     background-color: aqua;
     border-radius: 10px;
     border-style: dashed;
   outline: 2px solid #0d0d0d;
 }
+.nav{
+    display: flex;
+    background-color:black;
+    justify-content: space-around;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3ad167;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #42e35f;
+    text-decoration: none;
+  }

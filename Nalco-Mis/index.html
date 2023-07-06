@@ -9,129 +9,137 @@
   </head>
   <body>
     <h1>CPP MIS SYSTEM</h1>
-    <div class="main">
-      <!-- Basic info of MIS section -->
-      <div class="top">
-        <div class="Date_Wrap">
-          <label for="run_dt">Run Dt:</label>
-          <input type="hidden" id="current-date" />
-          <input type="date" name="run_dt" id="rundate" />
-        </div>
-        <div class="shift_Wrap">
-          <label for="Shift">Shift:</label>
-          <select name="w_shift" id="Shift">
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="C">C</option>
-          </select>
-        </div>
-        <div class="Unit_Wrap">
-          <label for="w_unit">Unit No:</label>
-          <select name="w_unit" id="Unit">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-          </select>
-        </div>
-      </div>
-      <!-- Electricity Unit Section -->
-      <div class="middle">
-        <div class="reading">
-          <div class="heading">
-            <label
-              >Start Meter <br />
-              Reading</label
-            >
-            <label
-              >End Meter <br />
-              Readng</label
-            >
-            <label>Difference</label>
+    <form action="" method="post">
+      <div class="main">
+        <!-- Basic info of MIS section -->
+        <div class="top">
+          <div class="Date_Wrap">
+            <label for="run_dt">Run Dt:</label>
+            <input type="hidden" id="current-date" />
+            <input type="date" name="run_dt" id="rundate" />
           </div>
-          <hr style="border: 1px solid red" />
-          <div class="defect">
-            <label for="defect_flg">Meter Any Defect:</label>
-            <select
-              name="defect_flg"
-              id="defect"
-              style="
-                background-color: red;
-                width: 89px;
-                height: 31px;
-                align-self: end;
-              "
-            >
-              <option value="op1">op1</option>
-              <option value="op2">op2</option>
-              <option value="op3">op3</option>
+          <div class="shift_Wrap">
+            <label for="Shift">Shift:</label>
+            <select name="w_shift" id="Shift">
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
             </select>
           </div>
-          <div class="calc">
-            <div class="MWHR">
-              <label for="ga_mwhr_s">Gen MWHR:</label>
-              <input type="text" name="ga_mwhr_s" />
-              <input type="text" name="ga_mwhr_e" />
-              <input type="text" name="gen_act" style="width: 72px" />
+          <div class="Unit_Wrap">
+            <label for="w_unit">Unit No:</label>
+            <select name="w_unit" id="Unit">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <!-- Electricity Unit Section -->
+        <div class="middle">
+          <div class="reading">
+            <div class="heading">
+              <label
+                >Start Meter <br />
+                Reading</label
+              >
+              <label
+                >End Meter <br />
+                Readng</label
+              >
+              <label>Difference</label>
             </div>
-            <div class="MVAR">
-              <label for="ga_mwhr_s" style="width: 87px">Gen MVAR:</label>
-              <input type="text" name="ga_mvar_s" />
-              <input type="text" name="ga_mvar_e" />
-              <input type="text" name="gen_react" style="width: 72px" />
+            <hr style="border: 1px solid red" />
+            <div class="defect">
+              <label for="defect_flg">Meter Any Defect:</label>
+              <select
+                name="defect_flg"
+                id="defect"
+                style="
+                  background-color: red;
+                  width: 89px;
+                  height: 31px;
+                  align-self: end;
+                "
+              >
+                <option value="op1">op1</option>
+                <option value="op2">op2</option>
+                <option value="op3">op3</option>
+              </select>
             </div>
-            <div class="umwhr">
-              <label for="ga_mwhr_s">Uat MWHR::</label>
-              <input type="text" name="ua_mwhr_s" />
-              <input type="text" name="ua_mwhr_e" />
-              <input type="text" name="uat_act" style="width: 72px" />
+            <div class="calc">
+              <div class="MWHR">
+                <label for="ga_mwhr_s">Gen MWHR:</label>
+                <input type="text" name="ga_mwhr_s" />
+                <input type="text" name="ga_mwhr_e" />
+                <input type="text" name="gen_act" style="width: 72px" />
+              </div>
+              <div class="MVAR">
+                <label for="ga_mwhr_s" style="width: 87px">Gen MVAR:</label>
+                <input type="text" name="ga_mvar_s" />
+                <input type="text" name="ga_mvar_e" />
+                <input type="text" name="gen_react" style="width: 72px" />
+              </div>
+              <div class="umwhr">
+                <label for="ga_mwhr_s">Uat MWHR::</label>
+                <input type="text" name="ua_mwhr_s" />
+                <input type="text" name="ua_mwhr_e" />
+                <input type="text" name="uat_act" style="width: 72px" />
+              </div>
+            </div>
+          </div>
+          <div class="reason">
+            <div class="heading" style="display: flex; justify-content: start">
+              <label style="background-color: #a0a0a4; color: #000080"
+                >GENERATION LOSS DETAILS</label
+              >
+            </div>
+            <div class="h2">
+              <label style="margin-left: 5px">MWHr</label>
+              <label>Reasons</label>
+              <label type="hidden" style="border: 0px"></label>
+            </div>
+            <hr style="border: 1px solid red" />
+            <div class="res">
+              <div>
+                <input type="text" style="width: 71px" name="short_fall1" />
+                <input type="text" style="width: 306px" name="reason1" />
+              </div>
+              <div>
+                <input type="text" style="width: 71px" name="short_fall2" />
+                <input type="text" style="width: 306px" name="reason2" />
+              </div>
+              <div>
+                <input type="text" style="width: 71px" name="short_fall3" />
+                <input type="text" style="width: 306px" name="reason3" />
+              </div>
+              <div>
+                <input type="text" style="width: 71px" name="short_fall4" />
+                <input type="text" style="width: 306px" name="reason4" />
+              </div>
+              <div>
+                <input type="text" name="res_sort_fal" style="width: 387px" />
+              </div>
             </div>
           </div>
         </div>
-        <div class="reason">
-          <div class="heading" style="display: flex; justify-content: start">
-            <label style="background-color: #a0a0a4; color: #000080"
-              >GENERATION LOSS DETAILS</label
-            >
-          </div>
-          <div class="h2">
-            <label style="margin-left: 5px">MWHr</label>
-            <label>Reasons</label>
-            <label type="hidden" style="border: 0px"></label>
-          </div>
-          <hr style="border: 1px solid red" />
-          <div class="res">
-            <div>
-              <input type="text" style="width: 71px" name="short_fall1" />
-              <input type="text" style="width: 306px" name="reason1" />
-            </div>
-            <div>
-              <input type="text" style="width: 71px" name="short_fall2" />
-              <input type="text" style="width: 306px" name="reason2" />
-            </div>
-            <div>
-              <input type="text" style="width: 71px" name="short_fall3" />
-              <input type="text" style="width: 306px" name="reason3" />
-            </div>
-            <div>
-              <input type="text" style="width: 71px" name="short_fall4" />
-              <input type="text" style="width: 306px" name="reason4" />
-            </div>
-            <div>
-              <input type="text" name="res_sort_fal" style="width: 387px" />
-            </div>
-          </div>
+        <!-- display Data unit -->
+        <div class="Display"></div>
+        <!-- NavBar -->
+        <div class="nav">
+          <button type="Submit" class="btn">Submit</button>
+          <button type="reset" class="btn">Reset</button>
+          <button class="btn">Display</button>
         </div>
       </div>
-      <!-- display Data unit -->
-      <div class="Display"></div>
-    </div>
+    </form>
     <script src="script.js"></script>
   </body>
 </html>
