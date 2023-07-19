@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do List</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-  </head>
-  <body>
+<%- include('header'); -%>
     <div class="box" id="heading">
       <h1>It's <%= listTitle %>!</h1>
     </div>
 
-    <div class="box"> 
+    <div class="box">
         <% if(newListItems.length > 0) { %>
           <% for(var i=0;i<newListItems.length;i++){ %>
             <div class="item">
@@ -22,8 +14,7 @@
         <% } %>
         <form class="item" action="/" method="post">
           <input type="text" name="newItem" placeholder="New Item" autocomplete="off"/>
-          <button type="submit" name="button">+</button>
+          <button type="submit" name="list" value=<%= listTitle %>>+</button>
         </form>
     </div>
-  </body>
-</html>
+<%- include('footer'); -%>
