@@ -33,3 +33,20 @@
 	font-size: 12px;
   color: #fff;
 }
+.add {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color:#1abc9c;
+    color: #fff;
+    font-size: 30px;
+
+    border-width: 0;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
