@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 // Connect to DB
 
-mongoose.connect("mongodb://127.0.0.1:27017/todoDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://codehimanshu24:Hkm%408426@cluster0.yjrpqnu.mongodb.net/todoDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 // Create Schema
 
