@@ -1,5 +1,5 @@
 //jshint esversion:6
-
+require('dotenv').config()
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 // Connect to DB
 
-mongoose.connect("mongodb+srv://codehimanshu24:Hkm%408426@cluster0.yjrpqnu.mongodb.net/todoDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(process.env.DATABASE_CONNECT, {useNewUrlParser: true, useUnifiedTopology: true});
 
 // Create Schema
 
