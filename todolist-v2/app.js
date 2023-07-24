@@ -13,8 +13,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 // Connect to DB
-
-mongoose.connect(process.env.DATABASE_CONNECT, {useNewUrlParser: true, useUnifiedTopology: true});
+const db =process.env.DATABASE_CONNECT;
+// console.log(db);
+mongoose.connect(`${db}`, {useNewUrlParser: true, useUnifiedTopology: true});
 
 // Create Schema
 
